@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     existingButton.style.display = 'block';
   }
 
-  // Handle form submission
+
   loginForm.addEventListener('submit', (event) => {
     event.preventDefault();
 
@@ -27,6 +27,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
     alert(`Logged in as ${username}`);
   });
+
 
   existingButton.addEventListener('click', () => {
     alert(`Logged in as ${storedUsername}`);
