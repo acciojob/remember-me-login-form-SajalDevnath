@@ -1,21 +1,22 @@
+/* styles.css */
 body {
-  font-family: Arial, sans-serif;
-  margin: 20px;
+    font-family: Arial, sans-serif;
+    margin: 20px;
 }
 
 form {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 label {
-  display: block;
-  margin-top: 10px;
+    display: block;
+    margin-top: 10px;
 }
 
 input[type="text"],
 input[type="password"] {
-  display: block;
-  margin-top: 5px;
-  padding: 5px;
-  width: 200px;
+    display: block;
+    margin-top: 5px;
+    padding: 5px;
+    width: 200px;
 }
